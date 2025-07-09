@@ -59,7 +59,7 @@ while True:
         # Berfungsi sebagai gestur "reset" atau "stop" universal.
         # [jempol, telunjuk, tengah, manis, kelingking]
 
-        if fingers == [1, 1, 1, 1, 1]:
+        if fingers == [1, 1, 1, 1, 1] or fingers == [0,0,0,0,0]:
             current_mode = Mode.IDLE
 
         # ==================== KONDISI IDLE ====================
